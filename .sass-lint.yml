@@ -1,0 +1,38 @@
+# Linter Options
+options:
+  # Raise an error if more than 50 warnings are generated
+  max-warnings: 50
+# Rule Configuration
+rules:
+  extends-before-mixins: 2
+  extends-before-declarations: 2
+  placeholder-in-extend: 2
+  mixins-before-declarations:
+    - 2
+    -
+      exclude:
+        - breakpoint
+        - mq
+
+  no-warn: 1
+  no-debug: 1
+  no-ids: 2
+  no-important: 2
+  hex-notation:
+    - 2
+    -
+      style: uppercase
+  indentation:
+    - 2
+    -
+      size: 2
+  property-sort-order:
+    - alphabetical
+    -
+      ignore-custom-properties: false
+  variable-for-property:
+    - 2
+    -
+      properties:
+        - margin
+        - content
