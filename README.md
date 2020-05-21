@@ -1,6 +1,6 @@
 # pty-themes
 
-This is a CSS framework to maintain the visual appearance of multibrand sites using themes.
+`pty-themes` is a CSS framework built upon Bootstrap that provides the ability maintain the visual appearance of multibrand sites using various themes. `pty-themes` uses (Storybook)[http://storybook.com] to enforce Visual TDD development flow.
 
 ## Versioning
 
