@@ -1,9 +1,13 @@
+// Base stylings
+@import 'base/reset';
+
+// Vendors
+@import 'vendors/bootstrap';
+
 // Functions, Mixins, Variables
 @import 'abstract/variables';
 @import 'abstract/mixins';
 
-// Base stylings
-@import 'base/reset';
 @import 'base/typography';
 
 // Components
@@ -11,6 +15,3 @@
 
 // Layouts
 @import 'layout/navigation';
-
-// Vendors
-@import 'vendors/bootstrap';
