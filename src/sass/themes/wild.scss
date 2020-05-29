@@ -4,7 +4,7 @@ $button-bg-color: #11B;
 
 @import '../main';
 
-button {
-	background-color: yellow:
-	color: black;
+button, .btn.btn-primary {
+	background-color: #ff0;
+	color: #000;
 }
